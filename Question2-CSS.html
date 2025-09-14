@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <title>Question 2 - CSS</title>
+   <title>Question 2 - CSS
+   </title>
    <style>
     .mainsection a {
       text-decoration: none;
@@ -9,12 +10,21 @@
       outline: none;
     }
 
+    .mainsection a:focus, 
+    .mainsection a:hover {
+      outline: 2px solid #005fcc;
+      background-color: #e6f0ff;
+    }
+
     
     </style>
 </head>
 <body>
 <div class="mainsection">
-<h1><img src="lab2/lab2-imageoftext.gif" alt="Shopping categories"></h1>
+<h1>
+  <img src="lab2/lab2-imageoftext.gif" alt="" aria-hidden="true">
+  Shopping categories
+</h1>
 
 <ul>
   <li><a href="#">Animals</a></li>
